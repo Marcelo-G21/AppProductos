@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0%;
+    font-size: 18px;
+    font-family: 'Poppins';
+    line-height: 20px;
+    color: #b1b4bd;
+    background-color: #323a45;
+    
+}
+
+.container-fluid .navbar-brand {
+    background: linear-gradient(to right, #e48378 0%, #e74c3c 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 1.4;
+}
+
+.container-fluid a{
+    color: #b1b4bd;
+    font-weight: 500;
+}
+
+.container-fluid a:hover{
+    color: #e74c3c;
+}
+
+.header-background{
+    position: static;
+    display: block;
+    overflow: visible;
+    top: 0;
+    height: auto;
+    min-height: 750px;
+    margin-bottom: 50px;
+    padding-bottom: 70px;
+    flex-direction: column;
+    background-position: 0px 0px, 100% 50%;
+    background-size: auto, cover;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(50,58,69,0.9)));
+    background-image: linear-gradient(180deg, rgba(50,58,69,0.55),rgba(50,58,69,0.74), url(images/gallery2.jpg));
+    white-space: normal;
+    object-fit: fill;
+    -o-object-fit: fill;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+
+}
+
+.sticky-nav{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    padding: 20px;
+    z-index: 1;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+    -webkit-box-ordinal-group: 1;
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    background-color: rgba(12, 32, 59, 0.5);
+}
+
+.navbar .navbar-brand a{
+    padding: 1erm 0;
+    display: block;
+    text-decoration: none;
+    
+}
+
+.container-fluid .navbar-brand {
+    font-size: 2.2rem;
+    color: rgb(252, 244, 252);
+}
+
+.navbar-toggler {
+    border: none;
+    padding: 10px 6px;
+    outline: none;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1.4rem 1rem;
+    font-size: 1.2rem;
+    position: relative;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link.active{
+    color: #e74c3c;
+}
+
+.d-flex .btn-dark {
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem;
+}
+
+.d-flex .btn-dark:hover {
+    color: white;
+    background-color: #0a3d62;
+}
+
+.container{
+    background-color: #0a3d62;
+    width: 40%;
+    border-radius: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    
+    
+}
